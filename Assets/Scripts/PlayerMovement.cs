@@ -4,20 +4,25 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Tilemaps;
 
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] float runSpeed = 5f;
+    [SerializeField] float climbSpeed = 5f;
     [SerializeField] float jumpSpeed = 5f;
+
 
     Vector2 moveInput;
     Rigidbody2D myRigidbody;
     Animator myAnimator;
+    CapsuleCollider2D myCapsuleCollider;
 
 
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
+        myCapsuleCollider = GetComponent<CapsuleCollider2D>();
         myAnimator = GetComponent<Animator>();
     }
 
@@ -25,15 +30,22 @@ public class PlayerMovement : MonoBehaviour
     {
         Run();
         FlipSprite();
+        ClimbLadder();
     }
 
     void OnMove(InputValue value)
     {
         moveInput = value.Get<Vector2>();
+
     }
 
     void OnJump(InputValue value)
     {
+        if (!myCapsuleCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
+        {
+            return;
+        }
+
         if (value.isPressed)
         {
             myRigidbody.velocity += new Vector2(0f, jumpSpeed);
@@ -58,5 +70,25 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
+    }
+
+    void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.GetComponent<TilemapRenderer>().sortingLayerName == "Climbing")
+        {
+            ClimbLadder();
+        }
+    }
+
+    void ClimbLadder()
+    {
+        if (!myCapsuleCollider.IsTouchingLayers(LayerMask.GetMask("Climbing")) || moveInput.y < Mathf.Epsilon)
+        {
+            return;
+        }
+
+
+        myAnimator.SetBool("isClimbing", true);
+        myRigidbody.velocity = new Vector2(0f, moveInput.y * climbSpeed);
     }
 }
