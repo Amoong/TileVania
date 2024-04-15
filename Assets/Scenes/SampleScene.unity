@@ -11343,10 +11343,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ginger (Player)
       objectReference: {fileID: 0}
-    - target: {fileID: 5812391238320310822, guid: 3938c147cd32c25498294eeaf7ebfc5b, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 7294538837161677366, guid: 3938c147cd32c25498294eeaf7ebfc5b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.06
@@ -11386,6 +11382,14 @@ PrefabInstance:
     - target: {fileID: 7294538837161677366, guid: 3938c147cd32c25498294eeaf7ebfc5b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7386399469952579564, guid: 3938c147cd32c25498294eeaf7ebfc5b, type: 3}
+      propertyPath: m_Size.x
+      value: 0.49456382
+      objectReference: {fileID: 0}
+    - target: {fileID: 7386399469952579564, guid: 3938c147cd32c25498294eeaf7ebfc5b, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.045247674
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
