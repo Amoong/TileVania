@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &93852522 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7800040629059358068, guid: 3938c147cd32c25498294eeaf7ebfc5b, type: 3}
+  m_PrefabInstance: {fileID: 1174123134488093976}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &331391370
 GameObject:
   m_ObjectHideFlags: 0
@@ -12285,6 +12290,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2299401509744567899, guid: 3938c147cd32c25498294eeaf7ebfc5b, type: 3}
+      propertyPath: gun
+      value: 
+      objectReference: {fileID: 93852522}
+    - target: {fileID: 2299401509744567899, guid: 3938c147cd32c25498294eeaf7ebfc5b, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 4645256965367816983, guid: 7b0dbac7d31e6544bb6d9a6988dc2965, type: 3}
     - target: {fileID: 5812391238320310822, guid: 3938c147cd32c25498294eeaf7ebfc5b, type: 3}
       propertyPath: m_Name
       value: Ginger (Player)
