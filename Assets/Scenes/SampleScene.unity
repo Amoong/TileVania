@@ -11776,11 +11776,11 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.035192728, y: -0.12769204}
-  m_Size: {x: 0.55236197, y: 0.57775414}
+  m_Offset: {x: 0.028688908, y: -0.12769204}
+  m_Size: {x: 0.5185425, y: 0.57775414}
   m_Direction: 0
 --- !u!114 &1801875436
 MonoBehaviour:
@@ -11827,7 +11827,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.35646582, y: -0.318943}
+  m_Offset: {x: 0.38638312, y: -0.318943}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -11838,7 +11838,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.06193185, y: 0.62482935}
+  m_Size: {x: 0.054127336, y: 0.62482935}
   m_EdgeRadius: 0
 --- !u!1 &2077186484
 GameObject:
@@ -12328,26 +12328,6 @@ PrefabInstance:
     - target: {fileID: 7294538837161677366, guid: 3938c147cd32c25498294eeaf7ebfc5b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7386399469952579564, guid: 3938c147cd32c25498294eeaf7ebfc5b, type: 3}
-      propertyPath: m_Size.x
-      value: 0.49456382
-      objectReference: {fileID: 0}
-    - target: {fileID: 7386399469952579564, guid: 3938c147cd32c25498294eeaf7ebfc5b, type: 3}
-      propertyPath: m_Size.y
-      value: 0.17382288
-      objectReference: {fileID: 0}
-    - target: {fileID: 7386399469952579564, guid: 3938c147cd32c25498294eeaf7ebfc5b, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 7bf25dd25c9f9ce4ebe852233f052114, type: 2}
-    - target: {fileID: 7386399469952579564, guid: 3938c147cd32c25498294eeaf7ebfc5b, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.045247674
-      objectReference: {fileID: 0}
-    - target: {fileID: 7386399469952579564, guid: 3938c147cd32c25498294eeaf7ebfc5b, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.41308856
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
