@@ -26,23 +26,29 @@ public class GameSession : MonoBehaviour
     {
         if (playerLives > 1)
         {
-            TakeLife();
+            StartCoroutine("TakeLife");
         }
         else
         {
-            ResetGameSession();
+            StartCoroutine("ResetGameSession");
         }
     }
 
-    void TakeLife()
+    IEnumerator TakeLife()
     {
+        yield return new WaitForSecondsRealtime(2f);
+
         playerLives--;
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex);
+
+
     }
 
-    void ResetGameSession()
+    IEnumerator ResetGameSession()
     {
+        yield return new WaitForSecondsRealtime(2f);
+
         FindObjectOfType<ScenePersist>().ResetScenePersist();
         SceneManager.LoadScene(0);
         Destroy(gameObject);
