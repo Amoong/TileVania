@@ -10465,67 +10465,10 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2054029069050965986, guid: b79688f4dcf831d428ce5a4df95e504a, type: 3}
   m_PrefabInstance: {fileID: 1316881516}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &2097685570
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1391350383}
-    m_Modifications:
-    - target: {fileID: 2049662230515242887, guid: 0908e5dd71725454c8da534070458d31, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.57
-      objectReference: {fileID: 0}
-    - target: {fileID: 2049662230515242887, guid: 0908e5dd71725454c8da534070458d31, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.96
-      objectReference: {fileID: 0}
-    - target: {fileID: 2049662230515242887, guid: 0908e5dd71725454c8da534070458d31, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2049662230515242887, guid: 0908e5dd71725454c8da534070458d31, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2049662230515242887, guid: 0908e5dd71725454c8da534070458d31, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2049662230515242887, guid: 0908e5dd71725454c8da534070458d31, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2049662230515242887, guid: 0908e5dd71725454c8da534070458d31, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2049662230515242887, guid: 0908e5dd71725454c8da534070458d31, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2049662230515242887, guid: 0908e5dd71725454c8da534070458d31, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2049662230515242887, guid: 0908e5dd71725454c8da534070458d31, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2644652514899314902, guid: 0908e5dd71725454c8da534070458d31, type: 3}
-      propertyPath: m_Name
-      value: Goober (Enemy) (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0908e5dd71725454c8da534070458d31, type: 3}
 --- !u!4 &2097685571 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 2049662230515242887, guid: 0908e5dd71725454c8da534070458d31, type: 3}
-  m_PrefabInstance: {fileID: 2097685570}
+  m_CorrespondingSourceObject: {fileID: 1387603062558834827, guid: 8591d314b42092042a385928c4e9dd4d, type: 3}
+  m_PrefabInstance: {fileID: 5167983339040734965}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1030505167440648207
 PrefabInstance:
@@ -10774,6 +10717,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8684494742981337354, guid: 4a2fddac4e8c6e24abd2f0f0b48f35f4, type: 3}
   m_PrefabInstance: {fileID: 3054164189716580767}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5167983339040734965
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1391350383}
+    m_Modifications:
+    - target: {fileID: 1387603062558834827, guid: 8591d314b42092042a385928c4e9dd4d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387603062558834827, guid: 8591d314b42092042a385928c4e9dd4d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387603062558834827, guid: 8591d314b42092042a385928c4e9dd4d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387603062558834827, guid: 8591d314b42092042a385928c4e9dd4d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387603062558834827, guid: 8591d314b42092042a385928c4e9dd4d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387603062558834827, guid: 8591d314b42092042a385928c4e9dd4d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387603062558834827, guid: 8591d314b42092042a385928c4e9dd4d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387603062558834827, guid: 8591d314b42092042a385928c4e9dd4d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387603062558834827, guid: 8591d314b42092042a385928c4e9dd4d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387603062558834827, guid: 8591d314b42092042a385928c4e9dd4d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135539023827689434, guid: 8591d314b42092042a385928c4e9dd4d, type: 3}
+      propertyPath: m_Name
+      value: Goober (Enemy) (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8591d314b42092042a385928c4e9dd4d, type: 3}
 --- !u!1001 &5786965420742482039
 PrefabInstance:
   m_ObjectHideFlags: 0

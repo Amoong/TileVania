@@ -62,7 +62,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2701642787228142653, guid: b79688f4dcf831d428ce5a4df95e504a, type: 3}
       propertyPath: m_Name
-      value: Coin (4) Variant
+      value: Big Coin Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5206225044048828973, guid: b79688f4dcf831d428ce5a4df95e504a, type: 3}
+      propertyPath: score
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
