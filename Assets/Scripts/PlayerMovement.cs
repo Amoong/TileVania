@@ -69,7 +69,6 @@ public class PlayerMovement : MonoBehaviour
     {
         if (!isAlive) { return; }
 
-        Debug.Log("Fire");
         Instantiate(bullet, gun.position, transform.rotation);
     }
 
